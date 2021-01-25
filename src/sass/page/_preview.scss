@@ -1,0 +1,104 @@
+.preview {
+  width: 100%;
+  position: relative;
+  &__form {
+    background-color: #ffffff;
+    width: 580px;
+
+    border: 1px solid #ededed;
+
+    &-container {
+      width: 90%;
+      margin: auto;
+      padding: 1rem 0 4rem 0;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+
+    &-1 > *:not(:last-child) {
+      margin-bottom: 2rem;
+      font-family: $font-family-primary;
+    }
+
+    &-2 > * {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    &-2 > * > * {
+      margin-bottom: 0.6rem;
+    }
+
+    &-2 > *:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__table {
+    margin-top: 2rem;
+  }
+
+  &__detail,
+  &__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__detail {
+    margin-top: 1rem;
+  }
+
+  &__amount {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    & > div {
+      // background-color: red;
+      width: 50%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid #ededed;
+    &:last-child {
+      border-bottom: 1px solid #ededed;
+    }
+  }
+
+  &__buttons {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+
+    & > * {
+      width: 100%;
+    }
+
+    & > *:not(:last-child) {
+      margin-right: 3rem;
+    }
+  }
+}
+.hr {
+  border: 1px solid #ededed;
+}

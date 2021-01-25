@@ -1,0 +1,26 @@
+.invoice {
+  width: 100%;
+  position: relative;
+
+  &__forms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+  }
+
+  &__buttons {
+    grid-column: 2 / -1;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    & > * {
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

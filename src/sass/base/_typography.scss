@@ -1,0 +1,43 @@
+.info {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: $primary-color;
+  width: fit-content;
+}
+
+.muted {
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-size: 14px;
+  color: $secondary-color;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 109.7%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  &__dark {
+    color: #373737;
+    font-size: 16px;
+  }
+}
+
+.status {
+  background: rgba(#ff991f, 0.15);
+  border-radius: 4px;
+  font-family: $font-family-primary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #ff991f;
+  padding: 0.3rem;
+}
