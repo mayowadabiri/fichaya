@@ -1,5 +1,4 @@
 // @ts-nocheck
-// import { Redirect, Route, Switch } from "react-router-dom";
 import { Route, Switch } from "react-router-dom";
 import Invoice from "./containers/invoice";
 import Preview from "./containers/preview";
