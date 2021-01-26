@@ -57,6 +57,7 @@ const Invoice = () => {
                         type="date"
                         className="form__input"
                         placeholder="Spleet Limited"
+                        value="2020-10-08"
                       />
                     </div>
                     <div className="form__group">
@@ -65,6 +66,7 @@ const Invoice = () => {
                         type="date"
                         className="form__input"
                         placeholder="Spleet Limited"
+                        value="2020-12-08"
                       />
                     </div>
                     <div className="form__group">
@@ -113,7 +115,10 @@ const Invoice = () => {
               <div className="invoice__buttons mt-sm">
                 <button className="cta cta__blue">Cancel</button>
                 <Link to="/preview" className="cta cta__yellow">
-                  CREATE INVOICE <span style={{fontWeight: 500, textTransform: "lowercase"}}>(click)</span>
+                  CREATE INVOICE{" "}
+                  <span style={{ fontWeight: 500, textTransform: "lowercase" }}>
+                    (click)
+                  </span>
                 </Link>
               </div>
             </div>

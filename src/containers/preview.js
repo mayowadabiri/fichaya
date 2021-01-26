@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Logo from "../assets/path0.png";
 import Button from "../components/button";
 
