@@ -10,10 +10,9 @@
 
   &__buttons {
     grid-column: 2 / -1;
-
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    // width: 100%;
 
     & > * {
       width: 100%;

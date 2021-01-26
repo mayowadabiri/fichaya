@@ -29,8 +29,7 @@
 
   &__input {
     background: #ffffff;
-    border: 1px solid #dea000;
-    box-sizing: border-box;
+    border:$border;
     border-radius: 5px;
     padding: 1rem;
     font-size: inherit;
@@ -48,7 +47,7 @@
     &::-webkit-input-placeholder {
       font-size: 18px;
       line-height: 165.5%;
-      color: #606077;
+      color: $secondary-color;
     }
   }
 }
